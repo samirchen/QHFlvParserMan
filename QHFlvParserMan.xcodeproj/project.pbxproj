@@ -39,7 +39,6 @@
 		74675EF721680B800011C3EB /* QHTSParser+TS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74675EF621680B800011C3EB /* QHTSParser+TS.swift */; };
 		749382EF20CFA03800EEC47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749382EE20CFA03800EEC47D /* AppDelegate.swift */; };
 		749382F120CFA03800EEC47D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749382F020CFA03800EEC47D /* ViewController.swift */; };
-		749382F320CFA03800EEC47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749382F220CFA03800EEC47D /* Assets.xcassets */; };
 		749382F620CFA03800EEC47D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749382F420CFA03800EEC47D /* Main.storyboard */; };
 		7493831620D65DC500EEC47D /* dump.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7493831420D65DC500EEC47D /* dump.mp4 */; };
 		7493831720D65DC500EEC47D /* dump.flv in Resources */ = {isa = PBXBuildFile; fileRef = 7493831520D65DC500EEC47D /* dump.flv */; };
@@ -56,6 +55,7 @@
 		74B19A9C21078395008F70C5 /* QHMP4Parser+Udta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B19A9B21078395008F70C5 /* QHMP4Parser+Udta.swift */; };
 		74B19AA5210D73E8008F70C5 /* QHMP4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B19AA4210D73E8008F70C5 /* QHMP4ViewController.swift */; };
 		74FD1DDD21006A5500F1DA3E /* QHMP4Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FD1DDC21006A5500F1DA3E /* QHMP4Parser.swift */; };
+		DF5B3FE0233B0F4800B06334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5B3FDF233B0F4800B06334 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,7 +92,6 @@
 		749382EB20CFA03800EEC47D /* QHFlvParserMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHFlvParserMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749382EE20CFA03800EEC47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		749382F020CFA03800EEC47D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		749382F220CFA03800EEC47D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		749382F520CFA03800EEC47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		749382F720CFA03800EEC47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		749382F820CFA03800EEC47D /* QHFlvParserMan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QHFlvParserMan.entitlements; sourceTree = "<group>"; };
@@ -111,6 +110,7 @@
 		74B19A9B21078395008F70C5 /* QHMP4Parser+Udta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QHMP4Parser+Udta.swift"; sourceTree = "<group>"; };
 		74B19AA4210D73E8008F70C5 /* QHMP4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QHMP4ViewController.swift; sourceTree = "<group>"; };
 		74FD1DDC21006A5500F1DA3E /* QHMP4Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QHMP4Parser.swift; sourceTree = "<group>"; };
+		DF5B3FDF233B0F4800B06334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,10 +193,10 @@
 				749382F020CFA03800EEC47D /* ViewController.swift */,
 				74B19AA4210D73E8008F70C5 /* QHMP4ViewController.swift */,
 				74487102215953950057E37D /* QHM3U8ViewController.swift */,
-				749382F220CFA03800EEC47D /* Assets.xcassets */,
 				749382F420CFA03800EEC47D /* Main.storyboard */,
 				749382F720CFA03800EEC47D /* Info.plist */,
 				749382F820CFA03800EEC47D /* QHFlvParserMan.entitlements */,
+				DF5B3FDF233B0F4800B06334 /* Assets.xcassets */,
 			);
 			path = QHFlvParserMan;
 			sourceTree = "<group>";
@@ -315,11 +315,11 @@
 			files = (
 				74B19A7E2106CA2B008F70C5 /* mp4.pdf in Resources */,
 				7493831720D65DC500EEC47D /* dump.flv in Resources */,
-				749382F320CFA03800EEC47D /* Assets.xcassets in Resources */,
 				7493831620D65DC500EEC47D /* dump.mp4 in Resources */,
 				74B19A7F2106CA2B008F70C5 /* video_file_format_spec_v10_1.pdf in Resources */,
 				7430B7082101DA7E0037D712 /* good.mp4 in Resources */,
 				74675EE22163DBBF0011C3EB /* fileSequence0.ts in Resources */,
+				DF5B3FE0233B0F4800B06334 /* Assets.xcassets in Resources */,
 				749382F620CFA03800EEC47D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +502,7 @@
 				CODE_SIGN_ENTITLEMENTS = QHFlvParserMan/QHFlvParserMan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JC9Y4K55DX;
+				DEVELOPMENT_TEAM = 3D6TZW6U4P;
 				INFOPLIST_FILE = QHFlvParserMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QHFlvParserMan;
@@ -518,7 +518,7 @@
 				CODE_SIGN_ENTITLEMENTS = QHFlvParserMan/QHFlvParserMan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JC9Y4K55DX;
+				DEVELOPMENT_TEAM = 3D6TZW6U4P;
 				INFOPLIST_FILE = QHFlvParserMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QHFlvParserMan;
